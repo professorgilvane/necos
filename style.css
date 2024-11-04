@@ -49,9 +49,9 @@ header {
     /*margin: 50px 0px;
     height: 100px; */
     background-color: #063d1e;
-    min-height: 150px;
+    min-height: 200px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
    
 }
 header > h1 {
@@ -60,6 +60,7 @@ header > h1 {
         margin-top: 20px;
         text-shadow: -9px 4px 3px rgba(0, 0, 0, 0.425);
         font-weight: lighter; 
+        font-variant: small-caps;
 }
 header > p {
     font-family: var(--fonte-padrao);
@@ -73,10 +74,17 @@ header > p {
     text-shadow: -7px 11px 3px rgba(0, 0, 0, 0.521);
     display:block
 }
+legend {
+    font-family: var(--fonte-android);
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+   }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 400px;
+    max-width: 1100px;
     background-color: white;
     margin: auto;
    /* margin-bottom: 30px;*/
@@ -105,16 +113,13 @@ main h1 {
         border-radius: 0px 0px 0px 5px;
         background-image: linear-gradient(to right, var(--cor2), transparent);
 }
-main h2 {
-    font-family: var(--fonte-android);
-    color: var(--cor4);
-    font-weight: normal;
-    font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
-    text-indent: 8px;
+iframe#tela{
+   position: relative;
+    min-width: 400px;
+    max-width: 1500px;
+    height: 400px;
+    border: 1px solid black;
 }
-
-
 aside{
     background-color: var(--cor1);
     padding: 10px;
@@ -140,15 +145,11 @@ footer {
     font-size: 0.8em;
     padding: 5px;
 }
-iframe#tela{
-    
-    width: 1000px;
-    height: 300px;
-    border: 2px solid black;
-}
+
 div#filhos{
    /* padding-top: 200px;*/
     margin: auto;
+    text-align: center;
 }
 
 /*
@@ -159,17 +160,16 @@ iframe#tela{
     width: 196px;
     height: 340px;
 }*/
-div#filhos {
-    text-align: center;
-}
 div#filhos img {
     display: inline;
-   width: 150px;
-   height: 150px;
+   width: 130px;
+   height: 130px;
    /* margin: 200px;*/
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
+    margin: auto;
+    
   }
   div#filhos img:hover {
     border: 2px solid rgba(0, 0, 0, 0.53);
