@@ -120,9 +120,9 @@ main h1 {
 iframe#tela{
    background-size: cover;
    position: relative;
-    min-width: 560px;
+    min-width: 400px;
     max-width: 1500px;
-    height: 400px;
+    height: 500px;
     border: 1px solid black;
 }
 iframe#tela h2 {
