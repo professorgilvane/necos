@@ -38,10 +38,6 @@ body{
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
 }
-a.externo::after {
-    content: '\00a0\1F517'; /*Código do emojipedia.org*/
-
-}
 
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
@@ -74,87 +70,69 @@ header > p {
     text-shadow: -7px 11px 3px rgba(0, 0, 0, 0.521);
     display:block
 }
-legend {
-    font-family: var(--fonte-android);
-    font-variant: small-caps;
-    font-weight: normal;
-    font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
-   }
-   fieldset {
-    margin: 0px;
-    padding: 0px;
-   }
-
-main {
+div#hist {
+    min-height: 100px;
+    text-align: center;
+}
+ main {
     min-width: 400px;
     max-width: 1100px;
     background-color: white;
     margin: auto;
    /* margin-bottom: 30px;*/
-    padding: 50px;
+    padding: 20px;
     box-shadow: 0px 7px 18px 9px black;
     border-radius: 0px 0px 10px 10px;
-}
-main p {
-    text-indent: 1.5em;
-    text-align: justify;
-    margin: 15px 0px;
-    line-height: 1.5em; /*espaçamentos entre linhas*/
-}
-main strong{
-    color: var(--cor3);
-    font-weight: bold;
-    /* background-color: var(--cor4);
-    padding: 3px 6px;*/
+    position: relative;
+    width: 85w;
+    height: 100vh;
+    height: 650px;
 }
 
-main h1 {
-        color: var(--cor5);
-        font-weight: normal;
-        font-size: 1.8em;
-        font-family: var(--fonte-android);
-        border-radius: 0px 0px 0px 5px;
-        background-image: linear-gradient(to right, var(--cor2), transparent);
-}
 iframe#tela{
    background-size: cover;
-   position: relative;
+   position: absolute;
     min-width: 400px;
     max-width: 1500px;
     height: 500px;
     border: 1px solid black;
 }
-iframe#tela h2 {
-    text-align: center;
-    background-color: #2fa866;    
-}
-aside{
-    background-color: var(--cor1);
-    padding: 50px;
-    border-radius: 20px 0px;
-    box-shadow: -7px 8px 8px rgba(0, 128, 0, 0.438);
-}
-aside>h3{
-    background-color: var(--cor4);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 20px 0px 0px 0px;
-}
-aside>ul{
-    list-style-position: inside;
-    columns: 2;
-    list-style-type: '\2714\00A0\00A0'; /*NÃO É COMPATÍVEL COM TODO NAVEGADOR*/
-}
+
 footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 10px;
+    display: block;
 }
-
+section#irmaos {
+    text-align: right;
+}
+section#irmaos img {
+    width: 60px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box;
+    display: inline;
+    display: flex;
+   margin-left: auto;
+   position-try-order: ;
+    
+    
+   
+    
+    
+}
+section#irmaos img:hover {
+    border: 2px solid rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+    transform: rotate3d(1,1,2,25deg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+    transition: transform .3s, border 1s;
+}
 div#filhos{
    /* padding-top: 200px;*/
     
