@@ -60,7 +60,7 @@ header p{
 body{
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
-   
+    height: 100vh;
     
     
 }
@@ -77,11 +77,14 @@ div#foto{
     background-repeat: no-repeat;
     background-attachment: fixed;
     max-width: 10vw;
-    height: 50vh;
+    height: 30vh;
     width: 15000px;
     position: relative;
     opacity: 0.2;
-    margin-left: 17%;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    margin-left: 17vw;
+    height: 47vh;
 }
 div#hist h1{
     font-family: var(--fonte-destaque);
