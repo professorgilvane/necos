@@ -6,3 +6,8 @@ body {
     font-variant: small-caps;
     
 }
+hr {
+    border: 1px;
+    border-top: 2px solid #000; /* Cor e espessura da linha */
+    margin: 20px;
+}
