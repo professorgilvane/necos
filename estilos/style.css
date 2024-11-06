@@ -25,10 +25,8 @@
         --fonte-texto:'Eagle Lake', cursive;
         --fonte-fredericka:'Fredericka the Great'
     }
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     color: white;
@@ -60,30 +58,32 @@ header p{
 body{
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
-    height: 108vh;
+    height: 126vh;
     
     
 }
 main{
     position: relative;
-    height: 12vh;
+    height: 76vh;
     width: 87vw;
     background-color: rgba(240, 248, 255, 0.144);
     margin: auto;
    
     
 }
-div#foto{
+section#foto{
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     max-width: 10vw;
-    height: 30vh;
+    height: 100vh;
     position: relative;
     opacity: 0.2;
-    margin-top: 8%;
+    margin-top: 0%;
     margin-bottom: 5%;
     margin-left: 17vw;
     height: 47vh;
+    
 }
 div#hist h1{
     font-family: var(--fonte-destaque);
@@ -100,7 +100,7 @@ section#irmaos img{
     width: 70px;
     height: 70px;
     margin: 0px;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.664);
     box-sizing: border-box;
@@ -117,7 +117,7 @@ iframe#tela{
     width: 90vw;
     height: 300px;
     border: 2px solid black;
-    position: relative;
+    position: absolute;
 }
 iframe#tela>h1{
     font-size: 2em;
