@@ -50,7 +50,7 @@ header > h1 {
         font-variant: small-caps;
 }
 header p{
-    font-size: 1em;
+    font-size: 0.8em;
 }
  html, body {
     height: 97vh;
@@ -80,7 +80,7 @@ div#foto{
     height: 30vh;
     position: relative;
     opacity: 0.2;
-    margin-top: 2%;
+    margin-top: 8%;
     margin-bottom: 5%;
     margin-left: 17vw;
     height: 47vh;
@@ -100,7 +100,7 @@ section#irmaos img{
     width: 70px;
     height: 70px;
     margin: 0px;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.664);
     box-sizing: border-box;
