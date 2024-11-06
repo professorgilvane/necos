@@ -53,14 +53,14 @@ header p{
     font-size: 0.8em;
 }
  html, body {
-    height: 97vh;
-    height: 96vw;
+    
+    width: 96vw;
     background-color: black;
 }
 body{
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
-    height: 100vh;
+    height: 108vh;
     
     
 }
