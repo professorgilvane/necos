@@ -67,12 +67,23 @@ main{
     width: 90vw;
     background-color: rgba(240, 248, 255, 0.144);
     margin: auto;
-    background: url("../Imagens/foto-irmaos.jpeg") no-repeat bottom center;
+    bottom center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 500px;
+    padding-top: 5px;
     margin-top: 50px;
     
+}
+main img#foto{
+    background-repeat: no-repeat;
+    margin: auto;
+    bottom: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 90vw;
+    height: 50vh;
+    position: absolute;
+    opacity: 0.2;
 }
 div#hist h1{
     font-family: var(--fonte-destaque);
@@ -105,9 +116,11 @@ iframe#tela{
     width: 90vw;
     height: 300px;
     border: 2px solid black;
+    position: absolute;
 }
 iframe#tela>h1{
     font-size: 2em;
+    position: absolute;
 }
 footer{
     background-color: #2fa866;
