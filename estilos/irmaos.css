@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+body h1 {
     background-color: blanchedalmond;
     text-align: center;
     font-variant: small-caps;
@@ -10,4 +10,14 @@ hr {
     border: 1px;
     border-top: 2px solid #000; /* Cor e espessura da linha */
     margin: 20px;
+}
+main{
+    border: 1px solid rgba(211, 211, 211, 0.733);
+    background-color: rgba(173, 216, 230, 0.397);
+    border-radius: 0px 10px;
+    box-shadow: -5px 3px 8px rgba(0, 0, 0, 0.575);
+}
+section#esposa h2{
+    text-align: center;
+    
 }
