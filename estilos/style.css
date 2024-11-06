@@ -33,9 +33,9 @@ header {
     /*margin: 50px 0px;
     height: 60px; */
     background-color: #063d1e;
-    min-height: 150px;
+    height: 140px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 1px;
    
    
 }
@@ -48,6 +48,7 @@ header > h1 {
         font-variant: small-caps;
 }
 header p{
+    margin-top: -10%;
     font-size: 0.8em;
 }
  html, body {
@@ -58,13 +59,13 @@ header p{
 body{
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
-    height: 126vh;
+    height: 136vh;
     
     
 }
 main{
     position: relative;
-    height: 76vh;
+    height: 88vh;
     width: 87vw;
     background-color: rgba(240, 248, 255, 0.144);
     margin: auto;
@@ -97,13 +98,13 @@ section#irmaos{
     text-align: left;
 }
 section#irmaos img{
-    width: 70px;
+    width: 66px;
     height: 70px;
     margin: 0px;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.664);
-    box-sizing: border-box;
+    
     
    
 }
@@ -115,13 +116,13 @@ section#irmaos img:hover{
 }
 iframe#tela{
     width: 90vw;
-    height: 300px;
+    height: 400px;
     border: 2px solid black;
-    position: absolute;
+    position: relative;
 }
 iframe#tela>h1{
     font-size: 2em;
-    position: relative;
+    position: absolute;
 }
 footer{
     background-color: #2fa866;
