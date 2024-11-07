@@ -42,7 +42,7 @@ header {
 header > h1 {
         font-family: var(--fonte-fredericka);
         font-size: 5em;
-        margin-top: 20px;
+        margin-top: 0.11em;
         text-shadow: -9px 4px 3px rgba(0, 0, 0, 0.425);
         font-weight: lighter; 
         font-variant: small-caps;
