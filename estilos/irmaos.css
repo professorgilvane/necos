@@ -1,14 +1,3 @@
 @charset "UTF-8";
 
-body h1 {
-    background-color: blanchedalmond;
-    text-align: center;
-    font-variant: small-caps;
-    
-}
-hr {
-    border: 1px;
-    border-top: 2px solid #000; /* Cor e espessura da linha */
-    margin: 20px;
-}
 
