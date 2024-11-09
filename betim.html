@@ -28,7 +28,7 @@ main#descrição{
     background-color: rgba(148, 222, 247, 0.664);
     border-radius: 10px 10px 0px 0px;
     box-shadow: -5px 3px 8px rgba(0, 0, 0, 0.575);
-    height: 7em;
+    height: 8em;
 }
 main#descrição>ul{
     margin: 0%;
@@ -36,6 +36,10 @@ main#descrição>ul{
     list-style-position: inside;
    
     list-style-type: '\2714\00A0\00A0';
+}
+main#descrição img {
+    width: 12vw;
+    position: absolute;
 }
 main#fotos{
     border: 1px solid rgba(211, 211, 211, 0.733);
@@ -48,31 +52,22 @@ section#esposa h2{
     
 }
 section#esposa img{
-    width: 25vw;
-    margin-left: 35%;
+    width: 35vw;
+   
     border-radius: 25%;
 }
 section#filhas h3 {
     text-align: center;
 }
-section#isabela{
+ /* section#clarice{
     display: inline;
     
-}
-section#isabela img {
+} */
+section#clarice img {
     height: 35vh;
     border-radius: 25%;
     display: inline;
-    margin-left: 10vw;
-}
-section#ana-clara{
-    display: inline;
-    
-}
-section#ana-clara img {
-    height: 35vh;
-    border-radius: 25%;
-    display: inline;
+    margin: 2vw;
 }
 main#cidade {
     border: 1px solid rgba(211, 211, 211, 0.733);
@@ -87,6 +82,15 @@ main#cidade>ul{
     padding: 0%;
    
 }
+section#gabriele {
+    display: block;
+    margin: auto;
+    
+}
+section#gabriele img {
+    height: 35vh;
+    border-radius: 25%;
+}
 </style>
 <title>Gilberto Caires Pereira</title> 
     
@@ -95,6 +99,7 @@ main#cidade>ul{
     <h1>Gilberto Caires Pereira (Betim)</h1> <hr>
 <main id="descrição">
 <ul>
+    <li>Gosta de ser chamado de "o bode" <img src="Imagens/bode.jpeg">
     <li>Técnico em refrigeração;</li>
     <li>Assistente técnico autorizado:</li>
                <ul>
@@ -105,24 +110,21 @@ main#cidade>ul{
 
 </main>
 <main id="fotos">
-<section id="esposa">
+<section style="display: grid; place-items: center;" id="esposa">
 <h2>Esposa</h2>
 <img src="Imagens/Esposos(as)/Miria.jpeg">
 </section>
 <section id="filhas">
-    <h3>Filhas (primeiro casamento)</h3>
-<section id="ana-clara">
+    <h3>Filhas (relacionamentos anteriores)</h3>
+<section style="display: -ms-inline-grid; text-align: center;" id="clarice">
     <img src="Imagens/filhos(as)/betim/ana-clara.jpeg">
-
+    <img src="Imagens/filhos(as)/betim/isabela.jpeg">
 </section>            
-<section id="isabela">
-<img src="Imagens/filhos(as)/betim/isabela.jpeg">
 
-
-
-</section>            
-<section id="gabriele">
+<section style="display: grid; place-items: center;"id="gabriele">
+    <img src="Imagens/filhos(as)/betim/gabriele.jpeg">
 </section>
+
 </main>
 <main id="cidade">
 Reside atualmente em Montezuma-Mg.
