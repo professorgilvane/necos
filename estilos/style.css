@@ -13,12 +13,12 @@
         src:url('../fontes/EagleLake-Regular.ttf') format('truetype');
 } 
 :root { /*pseudo class*/
-        --cordefundo:#c5ebd6; /*toda variável começa com --*/
-        --cor1:#83e1ad;
-        --cor2:#3ddc84;
-        --cor3:#2fa866;
-        --cor4:#1a5c37;
-        --cor5:#063d1e;
+        --cordefundo: #627557;  /*toda variável começa com --*/
+        --cor1:#46ACAE;
+        --cor2:#E0D8CB;
+        --cor3:#A9957D;
+        --cor4:#BC977A;
+        --cor5:#765B52;
         
         --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
         --fonte-destaque: "chicle", sans-serif;
@@ -57,6 +57,10 @@ header p{
     background-color: black;
 }
 body{
+    background: url("../Imagens/foto-familia.jpeg") no-repeat fixed top;
+    background-size: cover;
+    margin-top: 0px;
+    height: 70vh;
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
     height: 136vh;
@@ -96,6 +100,11 @@ div#hist p{
 }
 section#irmaos{
     text-align: left;
+    height: 4.5em;
+    width: 35.5em;
+    
+    border-radius: 10%;
+    background-image: linear-gradient(to right, transparent, lightblue);
 }
 section#irmaos img{
     width: 66px;
@@ -125,11 +134,13 @@ iframe#tela>h1{
     position: absolute;
 }
 footer{
-    background-color: #2fa866;
+    background-color: #534c08;
     color: antiquewhite;
     padding: 15px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    position: relative;
 }
 footer strong{
     font-variant: small-caps;
