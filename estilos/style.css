@@ -13,22 +13,29 @@
         src:url('../fontes/EagleLake-Regular.ttf') format('truetype');
 } 
 :root { /*pseudo class*/
-        --cordefundo: #627557;  /*toda variável começa com --*/
+        --cordefundo: #033d34;  /*toda variável começa com --*/
         --cor1:#46ACAE;
         --cor2:#E0D8CB;
         --cor3:#A9957D;
         --cor4:#BC977A;
         --cor5:#765B52;
+        --cor:#E0D8CB;
+        --cor:#5EB4B1;
+        --cor:#50ABAC;
+        --cor:#6EA89A;
+        --cor:#558A82;
+        --cor:;
+
         
         --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
         --fonte-destaque: "chicle", sans-serif;
         --fonte-texto:'Eagle Lake', cursive;
         --fonte-fredericka:'Fredericka the Great'
     }
-
+    
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cordefundo));
     color: white;
     /*margin: 50px 0px;
     height: 60px; */
@@ -60,7 +67,7 @@ body{
     background: url("../Imagens/foto-familia.jpeg") no-repeat fixed top;
     background-size: cover;
     margin-top: 0px;
-    height: 70vh;
+    width: 100vw;
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
     height: 136vh;
@@ -101,7 +108,7 @@ div#hist p{
 section#irmaos{
     text-align: left;
     height: 4.5em;
-    width: 35.5em;
+    width: 83vw;
     
     border-radius: 10%;
     background-image: linear-gradient(to right, transparent, lightblue);
@@ -134,7 +141,7 @@ iframe#tela>h1{
     position: absolute;
 }
 footer{
-    background-color: #534c08;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cordefundo));
     color: antiquewhite;
     padding: 15px;
     text-align: center;
