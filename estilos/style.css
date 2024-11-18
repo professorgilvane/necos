@@ -78,7 +78,7 @@ main{
     position: relative;
     height: 88vh;
     width: 87vw;
-    background-color: rgba(240, 248, 255, 0.144);
+    background-color: rgba(184, 219, 221, 0.171);
     margin: auto;
    
     
@@ -108,13 +108,13 @@ div#hist p{
 section#irmaos{
     text-align: left;
     height: 4.5em;
-    width: 83vw;
+    width: 87vw;
     
     border-radius: 10%;
     background-image: linear-gradient(to right, transparent, lightblue);
 }
 section#irmaos img{
-    width: 9vw;
+    width: 10vw;
     height: 4em;
     margin: 0px;
     margin-bottom: 10%;
