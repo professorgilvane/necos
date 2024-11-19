@@ -63,7 +63,7 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     margin-top: 30em;
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
