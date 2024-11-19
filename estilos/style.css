@@ -60,10 +60,10 @@ header p{
 }
 body{
     background-image: url("../Imagens/foto-família.jpeg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     margin-top: 30em;
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
@@ -101,7 +101,7 @@ div#hist p{
 }
 section#irmaos{
     text-align: left;
-    height: 4.5em;
+    height: 5em;
     width: 94vw;
     
     border-radius: 10%;
@@ -109,7 +109,7 @@ section#irmaos{
 }
 section#irmaos img{
     width: 10.7vw;
-    height: 4em;
+    height: 5em;
     margin: 0px;
     margin-bottom: 10%;
     border-radius: 50%;
