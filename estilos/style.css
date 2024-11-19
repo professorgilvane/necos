@@ -32,7 +32,6 @@
         --fonte-texto:'Eagle Lake', cursive;
         --fonte-fredericka:'Fredericka the Great'
     }
-    
 section#cabeçalho h1 {
     font-family: var(--fonte-fredericka);
     font-size: 5em;
@@ -50,7 +49,7 @@ header {
     color: white;
     /*margin: 50px 0px;
     height: 60px; */
-    
+    border-radius: 10px;
     height: 22vh;
     text-align: center;
     padding-top: 1px;
@@ -121,10 +120,12 @@ section#irmaos img:hover{
     transform: rotate3d(1,1,2, 25deg);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);
     transition-duration: .3s, border 1s;
+    opacity: 0.5;
+    background-color:orangered;
 }
 iframe#tela{
     width: 94vw;
-    height: 46vh;
+    height: 47vh;
     border: 2px solid black;
     border-radius: 10px 10px 0px 0px;
     position: relative;
