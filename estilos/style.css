@@ -58,28 +58,19 @@ header p{
     margin-top: -10%;
     font-size: 0.8em;
 }
- html, body {
-    
-    width: 96vw;
-    background-color: black;
-}
 body{
-    background-image: url("../Imagens/foto-familia.jpeg");
+    background-image: url("../Imagens/foto-família.jpeg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
-    background-size: cover;
-    margin-top: 0px;
-    
+    background-size: contain;
+    margin-top: 30em;
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
-    
-    
-    
 }
 main{
     position: relative;
-    height: 88vh;
+    height: 60vh;
     width: 95vw;
     background-color: rgba(184, 219, 221, 0.171);
     margin: auto;
@@ -135,7 +126,7 @@ section#irmaos img:hover{
 }
 iframe#tela{
     width: 94vw;
-    height: 75vh;
+    height: 47vh;
     border: 2px solid black;
     position: relative;
 }
@@ -144,7 +135,7 @@ iframe#tela>h1{
     position: absolute;
 }
 footer{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cordefundo));
+    background-image: linear-gradient(to top, var(--cor1), var(--cordefundo));
     color: antiquewhite;
     padding: 15px;
     text-align: center;
