@@ -111,7 +111,7 @@ div#hist p{
 section#irmaos{
     text-align: left;
     height: 4.5em;
-    width: 92vw;
+    width: 94vw;
     
     border-radius: 10%;
     background-image: linear-gradient(to right, transparent, lightblue);
@@ -134,7 +134,7 @@ section#irmaos img:hover{
     transition-duration: .3s, border 1s;
 }
 iframe#tela{
-    width: 97vw;
+    width: 94vw;
     height: 75vh;
     border: 2px solid black;
     position: relative;
