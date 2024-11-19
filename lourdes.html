@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/irmaos.css">
     <title>Lourdes</title>
     <style>
         body h1 {
@@ -44,47 +43,27 @@
             box-shadow: -8px -8px 8px rgba(0, 0, 0, 0.39);
             margin-top: 0.5em;
         }
-        section#esposa h2{
+        section#esposo h2{
             text-align: center;
             
         }
         section#esposo img{
             width: 25vw;
-            
             border-radius: 25%;
+            display: block;
             margin: auto;
         }
-        section#filha h3 {
+        section#filhas h3 {
             text-align: center;
-        }
-        section#filha>img {
-            display: flex;
-            justify-content: center;
-        }
-        main#fotos h3 {
-            text-align: center;
-        }
-        section#filhos h3 {
-            text-align: center;
-        }
-        section#henzo{
-            display: inline;
-            
         }
         section#fotofilhas img {
             height: 35vh;
             border-radius: 15%;
-            display: inline;
-            margin-left: 10vw;
-        }
-        section#heitor{
-            display: inline;
+            position: relative;
+            display: inline-block;
+            place-items: center;
             
-        }
-        section#heitor img {
-            height: 35vh;
-            border-radius: 15%;
-            display: inline;
+                      
         }
         main#cidade {
             border: 1px solid rgba(211, 211, 211, 0.733);
@@ -93,12 +72,6 @@
             box-shadow: -5px 3px 8px rgba(0, 0, 0, 0.575);
             height: 2em;
             margin-top: 0.5em;
-        }
-        main#cidade>ul{
-            margin: 0%;
-            padding: 1%;
-            list-style-position: inside;
-            list-style-type: '\2714\00A0\00A0';
         }
         </style> 
 </head>
@@ -120,7 +93,7 @@
         </section>
         <section id="filhas">
             <h3>Filhas</h3>
-        <section id="fotofilhas">
+        <section style="place-items: center;" id="fotofilhas">
             <img src="Imagens/filhos(as)/lourdes/mo.jpeg">
             <img src="Imagens/filhos(as)/lourdes/jo.jpeg">
             <img src="Imagens/filhos(as)/lourdes/di.jpeg">
