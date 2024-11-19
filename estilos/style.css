@@ -33,30 +33,27 @@
         --fonte-fredericka:'Fredericka the Great'
     }
     
-
+section#cabeçalho h1 {
+    font-family: var(--fonte-fredericka);
+    font-size: 5em;
+    margin-top: 0.11em;
+    text-shadow: -9px 4px 3px rgba(0, 0, 0, 0.425);
+    font-weight: lighter; 
+    font-variant: small-caps;
+}
+section#cabeçalho  p {
+    font-size: 0.8em;
+    margin-top: -10%;
+}
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cordefundo));
     color: white;
     /*margin: 50px 0px;
     height: 60px; */
-    background-color: #daeeeb;
+    
     height: 22vh;
     text-align: center;
     padding-top: 1px;
-   
-   
-}
-header > h1 {
-        font-family: var(--fonte-fredericka);
-        font-size: 5em;
-        margin-top: 0.11em;
-        text-shadow: -9px 4px 3px rgba(0, 0, 0, 0.425);
-        font-weight: lighter; 
-        font-variant: small-caps;
-}
-header p{
-    margin-top: -10%;
-    font-size: 0.8em;
 }
 body{
     background-image: url("../Imagens/foto-família.jpeg");
@@ -67,6 +64,7 @@ body{
     margin-top: 30em;
     background-color: var(--cordefundo);
     font-family: var(--fonte-padrao);
+    background-color: #ada398;
 }
 main{
     position: relative;
