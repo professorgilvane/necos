@@ -80,7 +80,7 @@ body{
 main{
     position: relative;
     height: 88vh;
-    width: 87vw;
+    width: 92vw;
     background-color: rgba(184, 219, 221, 0.171);
     margin: auto;
    
@@ -111,13 +111,13 @@ div#hist p{
 section#irmaos{
     text-align: left;
     height: 4.5em;
-    width: 87vw;
+    width: 92vw;
     
     border-radius: 10%;
     background-image: linear-gradient(to right, transparent, lightblue);
 }
 section#irmaos img{
-    width: 10vw;
+    width: 10.7vw;
     height: 4em;
     margin: 0px;
     margin-bottom: 10%;
@@ -134,7 +134,7 @@ section#irmaos img:hover{
     transition-duration: .3s, border 1s;
 }
 iframe#tela{
-    width: 87vw;
+    width: 92vw;
     height: 75vh;
     border: 2px solid black;
     position: relative;
