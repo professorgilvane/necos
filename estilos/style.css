@@ -80,7 +80,7 @@ body{
 main{
     position: relative;
     height: 88vh;
-    width: 92vw;
+    width: 95vw;
     background-color: rgba(184, 219, 221, 0.171);
     margin: auto;
    
@@ -134,7 +134,7 @@ section#irmaos img:hover{
     transition-duration: .3s, border 1s;
 }
 iframe#tela{
-    width: 92vw;
+    width: 97vw;
     height: 75vh;
     border: 2px solid black;
     position: relative;
