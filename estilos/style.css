@@ -143,6 +143,7 @@ footer{
     display: block;
     position: relative;
     text-shadow: 2px -2px 2px black;
+    border-radius: 0px 0px 10px 10px;
 }
 
 footer strong{
