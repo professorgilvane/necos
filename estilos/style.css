@@ -97,7 +97,7 @@ div#hist p{
 
 }
 section#irmaos{
-    text-align: left;
+    text-align: center;
     height: 5em;
     width: 94vw;
     
@@ -105,10 +105,11 @@ section#irmaos{
     background-image: linear-gradient(to right, transparent, lightblue);
 }
 section#irmaos img{
-    width: 10.7vw;
-    height: 10vh;
+   
+   max-width: 12vw;
+    height: 12vh;
     margin: 0px;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.664);
     
