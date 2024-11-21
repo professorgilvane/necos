@@ -105,9 +105,8 @@ section#irmaos{
     background-image: linear-gradient(to right, transparent, lightblue);
 }
 section#irmaos img{
-   
-   max-width: 12vw;
-    height: 12vh;
+    max-width: 12vw;
+    max-height: 12vh;
     margin: 0px;
     margin-bottom: 0%;
     border-radius: 50%;
