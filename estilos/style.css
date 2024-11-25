@@ -96,6 +96,15 @@ div#hist p{
     font-family: var(--fonte-texto);
 
 }
+div#igreja {
+    text-align: center;
+    display: inline-block;
+}
+div#igreja img {
+    width: 35vw;
+    height: 35vh;
+   
+}
 section#irmaos{
     text-align: center;
     height: 5em;
