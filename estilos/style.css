@@ -101,9 +101,8 @@ div#igreja {
     display: inline-block;
 }
 div#igreja img {
-    width: 35vw;
-    height: 35vh;
-   
+    width: 17em;
+    
 }
 section#irmaos{
     text-align: center;
