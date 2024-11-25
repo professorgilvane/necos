@@ -13,7 +13,7 @@
 } 
 body h1 {
     text-align: center;
-    background-image: linear-gradient(to right, transparent, #62a9b34f);
+    background-color: rgba(49, 167, 137, 0.466);
     border-radius: 10px 0px;
     box-shadow: 2px 2px 7px black;
     font-family: Arizonia;
@@ -32,13 +32,14 @@ body{
     height: 70vh;
 }
 main#descrição{
-    background-image: linear-gradient(to right, transparent, #62a9b34f);
+    background-color: rgba(49, 167, 137, 0.466);
     border-radius: 10px 10px 0px 0px;
     text-shadow: -4px 5px 20px #1a1c1c;
     height: auto;
     box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.301);
 }
 main#descrição>ul{
+    font-size: 0.7em;
     margin: 0%;
     padding: 1%;
     list-style-position: inside;
@@ -54,19 +55,27 @@ main#descrição img {
    
 }
 main#fotos{
-    background-image: linear-gradient(to right, transparent, #62a9b34f);
+    background-color: rgba(49, 167, 137, 0.466); 
     box-shadow: -8px -8px 8px rgba(0, 0, 0, 0.39);
     margin-top: 0.5em;
 }
-section#esposa h2{
+section#esposa-o h2{
     text-align: center;
     font-family: Amita;
 }
+section#esposa-o img{
+    width: 35vw;
+    box-shadow: -2px -2px 8px black;
+    border-radius: 25%;
+    display: block;   
+    margin:auto;
+}
 main#cidade {
-        background-image: linear-gradient(to right, transparent, #62a9b34f);
+         background-color: rgba(49, 167, 138, 0.466);
          border-radius: 0px 0px 10px 10px;
          box-shadow: -5px 3px 8px rgba(0, 0, 0, 0.575);
          height: auto;
          margin-top: 0.5em;
          font-family: Amita;
+         font-size: 0.8em;
 }
