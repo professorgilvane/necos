@@ -91,7 +91,18 @@ div#hist p{
     text-align: justify;
     text-indent: 2em;
     font-size: 0.8em;
+    display: inline-flex;
 
+}
+div#hist img{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin: auto;
+    display: -ms-inline-grid;
+
+    
+    
 }
 div#igreja {
     text-align: center;
