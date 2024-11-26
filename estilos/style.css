@@ -12,6 +12,10 @@
         font-family: 'EagleLake';
         src:url('../fontes/EagleLake-Regular.ttf') format('truetype');
 } 
+@font-face {
+    font-family: 'Amita';
+    src:url('../fontes/Amita-Regular.ttf') format('truetype');
+} 
 :root { /*pseudo class*/
         --cordefundo: #033d34;  /*toda variável começa com --*/
         --cor1:#46ACAE;
@@ -65,6 +69,33 @@ body{
     font-family: var(--fonte-padrao);
     background-color: #ada398;
 }
+section#parte1 {
+    background-color: rgba(85, 138, 130, 0.555);
+    border-radius: 10px 10px 0px 0px;
+}
+div#hist h1{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+div#hist p{
+    font-family: var(--fonte-texto);
+
+}
+div#igreja {
+    text-align: center;
+    display: inline-block;
+    font-family: Amita;
+}
+div#igreja audio {
+    margin: auto;
+    display: block;
+}
+div#igreja img {
+    width: 15em;
+    height: 11em;
+    border-radius: 10%;
+    
+}
 main{
     position: relative;
     height: 60vh;
@@ -86,28 +117,6 @@ section#foto{
     margin-bottom: 5%;
     margin-left: 17vw;
     height: 47vh;
-    
-}
-div#hist h1{
-    font-family: var(--fonte-destaque);
-    text-align: center;
-}
-div#hist p{
-    font-family: var(--fonte-texto);
-
-}
-div#igreja {
-    text-align: center;
-    display: inline-block;
-}
-div#igreja audio {
-    margin: auto;
-    display: block;
-}
-div#igreja img {
-    width: 15em;
-    height: 11em;
-    border-radius: 10%;
     
 }
 section#irmaos{
