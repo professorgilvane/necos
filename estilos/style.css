@@ -100,6 +100,10 @@ div#igreja {
     text-align: center;
     display: inline-block;
 }
+div#igreja audio {
+    margin: auto;
+    display: block;
+}
 div#igreja img {
     width: 15em;
     border-radius: 10%;
