@@ -111,13 +111,28 @@ div#fotopai img {
     width: 17vw;
     height: 25vh;
     border-radius: 10px;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 500px;
-    margin-top: 0%;
-}
-div#fotopai img {
     display: inline;
+    
+    margin-top: 0%;
+    
+}
+div#fotopai {
+    display: inline;
+}
+div#fotopai p {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    font-family: Amita;
+    font-size: 1.2em;
+    font-weight: bolder;
+    
+}
+div#fotopai audio {
+    display: inline-flex;
+    margin-top: 0%;
+    margin-bottom: 15%;
+    
 }
 div#igreja {
     text-align: center;
