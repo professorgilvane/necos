@@ -47,7 +47,9 @@ section#cabeçalho h1 {
 section#cabeçalho  p {
     font-size: 0.8em;
     margin-top: -10%;
+    font-family: Amita;
 }
+
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cordefundo));
     color: white;
@@ -73,18 +75,27 @@ section#parte1 {
     background-color: rgba(85, 138, 130, 0.555);
     border-radius: 10px 10px 0px 0px;
 }
+section#parte1 h2 {
+    background-color: rgba(85, 138, 130, 0.555);
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    font-family: Amita;
+}
 div#hist h1{
     font-family: var(--fonte-destaque);
     text-align: center;
 }
 div#hist p{
     font-family: var(--fonte-texto);
+    font-family: Amita;
+    text-align: justify;
+    text-indent: 2em;
 
 }
 div#igreja {
     text-align: center;
     display: inline-block;
-    font-family: Amita;
+    
 }
 div#igreja audio {
     margin: auto;
