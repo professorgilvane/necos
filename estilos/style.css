@@ -124,11 +124,14 @@ section#irmaos{
     height: 5em;
     width: 94vw;
     border-radius: 10px 0px;
-    background-image: linear-gradient(to right, transparent, lightblue);
+    background-image: linear-gradient(to right, transparent, rgba(173, 216, 230, 0.719));
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 section#irmaos img{
-    width: 8vw;
-    height: 8vh;
+    width: 4em;
+    height: 4em;
     margin: 0px;
     margin-bottom: 0%;
     border-radius: 50%;

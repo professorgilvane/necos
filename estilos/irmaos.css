@@ -67,6 +67,8 @@ section#esposa-o img{
 }
 section#filhos-as {
     text-align: center;
+    font-family: Amita;
+    font-size: 1.5em;
 }
 main#cidade {
          background-color: rgba(49, 167, 138, 0.466);
