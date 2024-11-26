@@ -89,7 +89,7 @@ div#hist h1{
 div#hist h2{
     font-family: var(--fonte-destaque);
     text-align: center;
-    padding-left: 6em;
+    padding-left: 7.5em;
 }
 div#hist p{
     font-family: var(--fonte-texto);
@@ -102,22 +102,24 @@ div#hist p{
     margin-bottom: 0%;
 }
 div#hist img{
-    width: 45vw;
+    width: 48vw;
     height: 32vh;
     border-radius: 10px;
     position: absolute;
 }
 div#fotopai img {
-    width: 17vw;
+    width: 25vw;
     height: 25vh;
     border-radius: 10px;
-    display: inline;
+    display: block;
+    margin-left: 10%;
     
     margin-top: 0%;
     
 }
 div#fotopai {
     display: inline;
+    margin-bottom: 0%;
 }
 div#fotopai p {
     display: flex;
@@ -131,7 +133,7 @@ div#fotopai p {
 div#fotopai audio {
     display: inline-flex;
     margin-top: 0%;
-    margin-bottom: 15%;
+    
     
 }
 div#igreja {
