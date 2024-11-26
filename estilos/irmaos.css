@@ -64,6 +64,9 @@ section#esposa-o img{
     display: block;   
     margin:auto;
 }
+section#filhos-as {
+    text-align: center;
+}
 main#cidade {
          background-color: rgba(49, 167, 138, 0.466);
          border-radius: 0px 0px 10px 10px;
