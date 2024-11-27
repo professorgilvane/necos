@@ -72,7 +72,7 @@ body{
     background-color: #ada398;
 }
 section#parte1 {
-    background-color: rgba(85, 138, 130, 0.555);
+    background-color: rgba(85, 138, 130, 0.747);
     border-radius: 10px 10px 0px 0px;
 }
 section#parte1 h2 {
@@ -99,6 +99,15 @@ div#hist p{
     font-size: 0.8em;
     display: inline-flex;
     margin-top: 11em;
+    margin-bottom: 0%;
+}
+div#hist2 p{
+    font-family: Amita;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 0.8em;
+    display: inline-flex;
+    margin-top: 0em;
     margin-bottom: 0%;
 }
 div#hist img{
