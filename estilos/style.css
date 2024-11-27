@@ -113,8 +113,8 @@ div#hist2 p{
     margin-bottom: 0%;
 }
 div#hist img{
-    width: 17em;
-    height: 9em;
+    width: 50%;
+    
     border-radius: 10px;
     position: absolute;
 }
