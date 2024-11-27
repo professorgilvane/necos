@@ -72,11 +72,11 @@ body{
     background-color: #ada398;
 }
 section#parte1 {
-    background-color: rgba(85, 138, 130, 0.747);
+    background-color: rgba(85, 138, 130, 0.8);
     border-radius: 10px 10px 0px 0px;
 }
 section#parte1 h2 {
-    background-color: rgba(85, 138, 130, 0.555);
+    
     border-radius: 10px 10px 0px 0px;
     text-align: center;
     font-family: Amita;
