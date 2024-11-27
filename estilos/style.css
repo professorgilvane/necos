@@ -89,7 +89,7 @@ div#hist h1{
 div#hist h2{
     font-family: var(--fonte-destaque);
     text-align: center;
-    padding-left: 11em;
+    padding-left: 9em;
     margin-left: 0%;
     
 }
@@ -113,8 +113,8 @@ div#hist2 p{
     margin-bottom: 0%;
 }
 div#hist img{
-    width: 23em;
-    height: 15em;
+    width: 17em;
+    height: 9em;
     border-radius: 10px;
     position: absolute;
 }
