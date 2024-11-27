@@ -89,7 +89,9 @@ div#hist h1{
 div#hist h2{
     font-family: var(--fonte-destaque);
     text-align: center;
-    padding-left: 13em;
+    padding-left: 11em;
+    margin-left: 0%;
+    
 }
 div#hist p{
     font-family: var(--fonte-texto);
