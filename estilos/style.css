@@ -98,7 +98,7 @@ div#hist p{
     text-indent: 2em;
     font-size: 0.8em;
     display: inline-flex;
-    margin-top: 11em;
+    margin-top: 14em;
     margin-bottom: 0%;
 }
 div#hist2 p{
@@ -111,8 +111,8 @@ div#hist2 p{
     margin-bottom: 0%;
 }
 div#hist img{
-    width: 58vw;
-    height: 32vh;
+    width: 23em;
+    height: 15em;
     border-radius: 10px;
     position: absolute;
 }
