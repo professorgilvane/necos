@@ -76,11 +76,8 @@ section#parte1 {
     border-radius: 10px 10px 0px 0px;
 }
 section#parte1 h2 {
-    
-    border-radius: 10px 10px 0px 0px;
-    text-align: center;
-    font-family: Amita;
-}
+       
+   }
 div#hist h1{
     font-family: var(--fonte-destaque);
     text-align: center;
@@ -88,9 +85,10 @@ div#hist h1{
 }
 div#hist h2{
     font-family: var(--fonte-destaque);
-    text-align: center;
-    padding-left: 9em;
+    text-align: end;
+    margin: 0%;
     margin-left: 0%;
+    display: grid;
     
 }
 div#hist p{
@@ -100,7 +98,7 @@ div#hist p{
     text-indent: 2em;
     font-size: 0.8em;
     display: inline-flex;
-    margin-top: 25%;
+    margin-top: 36%;
     margin-bottom: 0%;
 }
 div#hist2 p{
@@ -114,8 +112,8 @@ div#hist2 p{
 }
 div#hist img{
     width: 60%;
-    
     border-radius: 10px;
+    display: flex;
     position: absolute;
 }
 div#fotopai img {
