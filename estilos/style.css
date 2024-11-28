@@ -86,12 +86,12 @@ div#hist h1{
 div#hist h2{
     font-family: var(--fonte-destaque);
     text-align: end;
-    margin: 0%;
+    margin: 12% 0% 0% 0%;
     margin-left: 0%;
     display: grid;
-    min-width: 114px;
-    padding-left: 50%;
-    padding-right: 15%;
+    width: 7em;
+    padding-left: 15em;
+    padding-right: 2em;
     
 }
 div#hist p{
@@ -101,7 +101,7 @@ div#hist p{
     text-indent: 2em;
     font-size: 0.8em;
     display: inline-flex;
-    margin-top: 36%;
+    margin-top: 10em;
     margin-bottom: 0%;
 }
 div#hist2 p{
