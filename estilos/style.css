@@ -122,14 +122,11 @@ div#fotopai img {
     width: 25vw;
     height: 25vh;
     border-radius: 10px;
-    display: block;
-    margin-left: 10%;
-    
     margin-top: 0%;
     
 }
 div#fotopai {
-    display: inline;
+    display: flex;
     margin-bottom: 0%;
 }
 div#fotopai p {
