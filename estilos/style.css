@@ -75,6 +75,9 @@ section#parte1 {
     background-color: rgba(85, 138, 130, 0.8);
     border-radius: 10px 10px 0px 0px;
 }
+div#igreja h2{
+
+}
 section#parte1 h2 {
        
    }
@@ -90,7 +93,7 @@ div#hist h2{
     margin-left: 0%;
     display: grid;
     width: 7em;
-    padding-left: 15em;
+    padding-left: 14em;
     padding-right: 2em;
     
 }
@@ -147,6 +150,7 @@ div#fotopai audio {
     margin: 0%;
 }
 div#igreja {
+    font-family: Amita;
     text-align: center;
     display: inline-block;
     
