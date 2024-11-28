@@ -130,13 +130,14 @@ div#fotopai img {
 div#fotopai {
     display: block;
     margin-bottom: 0%;
+    text-align: center;
 }
 div#fotopai p {
     display: flex;
     margin-left: 5%;
     margin-bottom: 0%;
     font-family: Amita;
-    
+    justify-content: center;
     font-weight: bolder;
 }
 div#fotopai audio {
