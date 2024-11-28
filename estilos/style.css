@@ -123,10 +123,12 @@ div#fotopai img {
     height: 25vh;
     border-radius: 10px;
     margin-top: 0%;
+    display: flex;
+    margin: auto;
     
 }
 div#fotopai {
-    display: flex;
+    display: block;
     margin-bottom: 0%;
 }
 div#fotopai p {
@@ -136,14 +138,11 @@ div#fotopai p {
     font-family: Amita;
     
     font-weight: bolder;
-    
 }
 div#fotopai audio {
     display: inline-flex;
     margin-top: 0%;
-    margin: 5%;
-    
-    
+    margin: 0%;
 }
 div#igreja {
     text-align: center;
