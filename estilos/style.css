@@ -16,6 +16,14 @@
     font-family: 'Amita';
     src:url('../fontes/Amita-Regular.ttf') format('truetype');
 } 
+@font-face {
+    font-family: 'Caprasimo';
+    src:url('../fontes/Caprasimo-Regular.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'Rancho';
+    src:url('../fontes/Rancho-Regular.ttf') format('truetype');
+} 
 :root { /*pseudo class*/
         --cordefundo: #033d34;  /*toda variável começa com --*/
         --cor1:#46ACAE;
@@ -237,6 +245,8 @@ footer{
     position: relative;
     text-shadow: 2px -2px 2px black;
     border-radius: 0px 0px 10px 10px;
+    font-family: EagleLake;
+    font-weight: normal;
 }
 
 footer strong{
