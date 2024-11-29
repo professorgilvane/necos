@@ -81,30 +81,28 @@ div#igreja h2{
 section#parte1 h2 {
        
    }
+   div#hist{
+    display: grid;
+    margin: auto;
+   }
 div#hist h1{
     font-family: var(--fonte-destaque);
     text-align: center;
     margin: 0%;
 }
 div#hist h2{
-    font-family: var(--fonte-destaque);
+    font-family: Amita;
     text-align: center;
-    margin: 12% 0% 0% 0%;
-    margin-left: 0%;
     display: grid;
-    width: 7em;
-    padding-left: 14em;
-    padding-right: 0em;
-    
+    margin: 0%;
 }
 div#hist p{
-    font-family: var(--fonte-texto);
     font-family: Amita;
     text-align: justify;
     text-indent: 2em;
     font-size: 0.8em;
     display: inline-flex;
-    margin-top: 10em;
+    margin-top: 0%;
     margin-bottom: 0%;
 }
 div#hist2 p{
@@ -119,8 +117,9 @@ div#hist2 p{
 div#hist img{
     width: 50%;
     border-radius: 10px;
-    display: flex;
-    position: absolute;
+    display: grid;
+    position: relative;
+    margin: auto;
 }
 div#fotopai img {
     width: 25vw;
