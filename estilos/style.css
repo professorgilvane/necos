@@ -36,9 +36,7 @@
         --cor:#50ABAC;
         --cor:#6EA89A;
         --cor:#558A82;
-        --cor:;
-
-        
+               
         --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
         --fonte-destaque: "chicle", sans-serif;
         --fonte-texto:'Eagle Lake', cursive;
@@ -83,13 +81,7 @@ section#parte1 {
     background-color: rgba(85, 138, 130, 0.8);
     border-radius: 10px 10px 0px 0px;
 }
-div#igreja h2{
-
-}
-section#parte1 h2 {
-       
-   }
-   div#hist{
+div#hist{
     display: grid;
     margin: auto;
    }
